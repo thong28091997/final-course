@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+<?php include "../header.php" ?>
 <?php require_once "../../../db/mysql.php"; ?>
 <?php
   if(!isset($_GET["id"])){
@@ -13,15 +13,7 @@
   $name = $row["name"];
   $description = $row["description"];
 ?>
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Tao moi user</title>
-    <link rel="stylesheet" type="text/css" href="../../../public/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../../public/css/custom.css">
-  </head>
-  <body>
-  <div class="wrapper">
+  <div class="container">
     <form method="post" action="update.php">
       <input type="hidden" value="<?php echo $id; ?>" name="id">
       <div class="row">
@@ -44,9 +36,4 @@
       </div>
     </form>
   </div>
-  </body>
-  <script src="../../../public/js/jquery.min.js"></script>
-<script src="../../../public/js/bootstrap.min.js"></script>
-<script src="../../../public/js/bootstrap.bundle.min.js"></script>
-</html>
-<?php unset($_SESSION["flash"]); ?>
+<?php include "../footer.php" ?>

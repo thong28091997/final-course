@@ -1,5 +1,4 @@
-<?php session_start(); ?>
-<?php require_once "../../../db/mysql.php"; ?>
+<?php include "../header.php" ?>
 <?php
   if(!isset($_GET["id"])){
     $_SESSION["flash"] = "Wrong params";
@@ -17,15 +16,7 @@
   $qty = $row["qty"];
   $price = $row["price"];
 ?>
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Tao moi user</title>
-    <link rel="stylesheet" type="text/css" href="../../../public/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../../public/css/custom.css">
-  </head>
-  <body>
-  <div class="wrapper">
+  <div class="container">
     <form method="post" action="update.php">
       <input type="hidden" value="<?php echo $id; ?>" name="id">
       <div class="row">
@@ -74,6 +65,4 @@
       </div>
     </form>
   </div>
-  </body>
-</html>
-<?php unset($_SESSION["flash"]); ?>
+  <?php include "../footer.php" ?>

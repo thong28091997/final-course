@@ -1,12 +1,4 @@
-<?php require_once "../../../db/mysql.php"; ?>
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Danh sach nguoi dung</title>
-   <link rel="stylesheet" type="text/css" href="../../../public/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../../public/css/custom.css">
-</head>
-<body>
+<?php include "../header.php" ?>
   <div class="container">
   <h2>Danh sach nguoi dung</h2>
   <table class="table">
@@ -45,9 +37,4 @@
      ?>       
     </tbody>
   </table>
-</div>
-<script src="../../../public/js/jquery.min.js"></script>
-<script src="../../../public/js/bootstrap.min.js"></script>
-<script src="../../../public/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+</div><?php include "../footer.php" ?>
