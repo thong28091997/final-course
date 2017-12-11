@@ -10,3 +10,4 @@
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" type="text/css" href="../public/css/shop-homepage.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/login-style.css">

@@ -1,5 +1,5 @@
 <div class="col-lg-3">
-  <h1 class="my-4">SOCIAL</h1>
+  <h1 class="my-4"><a href="index.php"><img src="../public/uploads/logo.png"></a></h1>
   <div class="list-group">
   	<?php
         $sql = "select * from catalogs";

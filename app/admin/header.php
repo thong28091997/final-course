@@ -46,7 +46,7 @@
         </div>
         <div class="main-menu">
           <ul id="side-main-menu" class="side-menu list-unstyled">                  
-            <li class="active"><a href="../index.html"> <i class="icon-home"></i><span>Home</span></a></li>
+            <li class="active"><a href="../../index.php"> <i class="icon-home"></i><span>Home</span></a></li>
           </ul>
         </div>
         <div class="admin-menu">
@@ -115,7 +115,7 @@
                           <div class="notification-content"><i class="fa fa-twitter"></i>Bạn có 2 lượt theo dõi mới</div>
                           <div class="notification-time"><small>10 minutes ago</small></div>
                         </div></a></li>
-                    <li><a rel="nofollow" href="#" class="dropdown-item all-notifications text-center"> <strong> <i class="fa fa-bell"></i>Xem tất cả thông báo                                           </strong></a></li>
+                    <li><a rel="nofollow" href="https://gmail.com" class="dropdown-item all-notifications text-center"> <strong> <i class="fa fa-bell"></i>Xem tất cả thông báo                                           </strong></a></li>
                   </ul>
                 </li>
                 <li class="nav-item dropdown"> <a id="messages" rel="nofollow" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link"><i class="fa fa-envelope"></i><span class="badge badge-info">10</span></a>
@@ -135,10 +135,10 @@
                         <div class="msg-body">
                           <h3 class="h5">Ashley Wood</h3><span>sent you a direct message</span><small>3 days ago at 7:58 pm - 10.06.2014</small>
                         </div></a></li>
-                    <li><a rel="nofollow" href="#" class="dropdown-item all-notifications text-center"> <strong> <i class="fa fa-envelope"></i>Read all messages    </strong></a></li>
+                    <li><a rel="nofollow" href="https://gmail.com" class="dropdown-item all-notifications text-center"> <strong> <i class="fa fa-envelope"></i>Read all messages    </strong></a></li>
                   </ul>
                 </li>
-                <li class="nav-item"><a href="login.html" class="nav-link logout">Đăng xuất<i class="fa fa-sign-out"></i></a></li>
+                
               </ul>
             </div>
           </div>

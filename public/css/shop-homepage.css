@@ -13,3 +13,27 @@ body {
     padding-top: 56px;
   }
 }
+.list-group-item{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	color: #333;
+	margin-top: 10px;
+	border-bottom: 6px solid red;
+    background-color: lightgrey;
+    transition: 1s;
+}
+.list-group-item:hover{
+	color: red;
+	transition: 1s;
+	background: #68689eeb;
+	border-bottom: 6px solid #333;
+}
+a:hover{
+	color: red;
+	transition: 1s;
+}
+a{
+	transition: 1s;
+}
+
